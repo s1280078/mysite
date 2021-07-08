@@ -4,6 +4,11 @@
 
 int main(){
     int sum=0, value, i;
+    pchar name[10];
+    //名前入力
+    printf("What is your name?\n");
+    scanf("%s", name);
+    printf("Hello, %s!\n", name);
     printf("Rolling the dice...\n");
     
     srand((unsigned int)time(NULL));
